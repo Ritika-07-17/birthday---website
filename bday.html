@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Jaansa 💙</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" autoplay loop>
+    <source src="jaan bn gye.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<div id="hearts-container"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active" id="page1">
+
+<h1>Something Special For U 💙</h1>
+
+<div class="heart-btn" onclick="openPage(2)">
+❤️
+</div>
+
+<p>Tap The Heart ❤️</p>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page" id="page2">
+
+<h1 id="typing"></h1>
+
+<p class="subtitle">
+Today Is Your Day ✨
+</p>
+
+<button onclick="openPage(3)">
+Continue
+</button>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section class="page" id="page3">
+
+<h1>Our Memories 💙</h1>
+
+<div class="slideshow">
+
+<img id="slideImage" src="photo1.jpg.jpeg">
+
+</div>
+
+<p>
+Every picture tells a story 💙
+</p>
+
+<button onclick="openPage(4)">
+Open Letter
+</button>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section class="page" id="page4">
+
+<h1>For You 💌</h1>
+
+<div class="envelope-container" onclick="openEnvelope()">
+    <div class="envelope" id="envelope">
+        💙
+    </div>
+
+    <div class="letter" id="letter">
+        <h2>For My darling 💙</h2>
+        <p>
+            Happy Birthday, my love! 🎂✨<br><br>
+            Today is all about you. Thank you for bringing happiness,
+            laughter, and endless memories into my life.You are my sunshine, my rock, 
+            and my everything.I am so grateful for every moment we share together. 
+            Your smile lights up my world and your love fills my heart.  
+            And I can't wait to celebrate many more birthdays with you.<br><br>
+            I hope your day is filled with love, joy, and beautiful surprises.
+            You mean the world to me. 💙🤍
+            And one last note is behave well and don't be naughty 😈💙
+        </p>
+</div>
+
+</div>
+
+</div>
+
+<button id="surpriseBtn"
+onclick="openPage(5)">
+Open Surprise
+</button>
+
+</section>
+
+<!-- PAGE 5 -->
+
+<section class="page" id="page5">
+
+<h1>✨ 𝑆𝑢𝑟𝑝𝑟𝑖𝑠𝑒 𝑓𝑜𝑟 𝑌𝑜𝑢 ✨ </h1>
+
+<div class="gift-box"
+onclick="openGift()">
+📦
+</div>
+
+<div id="giftContent">
+
+<div class="popup-gallery">
+
+<img src="photo42.jpg.jpeg">
+<img src="photo46.jpg.jpeg">
+<img src="photo45.jpg.jpeg">
+<img src="photo41.jpg.jpeg">
+
+</div>
+
+<div class="love-note">
+
+<h2>To My kuchu puuu ✨🎀💙</h2>
+
+        <p>
+            Out of all the beautiful things in this world,
+            my favorite is YOU.
+        </p>
+
+        <p>
+            Thank you for every smile,
+            every memory and every moment.
+        </p>
+
+        <p>
+            Happy Birthday Jaansa ❤️
+        </p>
+
+        <p>
+            May all your dreams come true ✨
+        </p>
+
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
